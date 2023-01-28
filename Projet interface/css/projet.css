@@ -1,0 +1,1301 @@
+@charset "utf-8";
+
+
+
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-light-webfont.eot');
+    src: url('../fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff'),
+         url('../fonts/poppins-light-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: 'poppins';
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/*--Si dessous se trouve une div contenant le header en bleu avec la la nav et des 2 image.*/
+header
+{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	background-color:rgb(0, 61, 143, 1) ;
+}
+
+nav
+{
+	list-style: none;
+	height: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+    
+}
+
+li
+{
+	font-size: 22px;
+	color: rgba(87, 120, 184, 1);
+	padding: 6px;
+	text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+header span
+{
+	position: fixed;
+	padding-left: 9%;
+}
+
+header .logo
+{
+	width: 100%;
+	padding-left: 20%;
+	padding-top: 10%;
+}
+
+header .croix
+{
+	width: 50%;
+	padding-left: 55%;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+
+
+/*Si dessous se trouve une div contenant container qui va contenir le main et le footer */
+.container
+{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	height: 100%;
+	width: 75%;
+}
+
+main
+{
+	width: 100%;
+}
+/*Si dessous se trouve la section make your life count */
+.make_your_life_count
+{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+
+.make_your_life_count h1
+{
+	width:45%;
+	height: 100%;
+    font-size: 100px;
+	box-sizing: border-box;
+	color: rgba(230, 207, 136, 1);
+	
+	padding-top: 15%;
+	padding-left: 5%;
+}
+
+.make_your_life_count figure
+{
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.make_your_life_count img
+{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+/*SI DESSOUS se trouve la section who_is_mark*/
+.who_is_mark
+{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	flex-direction: column;
+}
+
+.who_is_mark h2
+{
+	width:30%;
+	height: 15%;
+	box-sizing: border-box;
+	border-bottom: 6px solid rgba(230, 207, 136, 1);
+	font-size: 50px;
+	
+	margin-left: -5%;
+	padding-left:8%;
+	margin-top: 15%;
+	
+	
+}
+
+.who_is_mark p
+{
+	width:50%;
+	height: 60%;
+	font-size: 18px;
+	box-sizing: border-box;
+	padding-left: 10%;
+	padding-top: 9%;
+	padding-right: 2%;
+}
+
+.who_is_mark button
+{
+	width: 20%;
+	height: 20%;
+	background-color: rgba(230, 207, 136, 1);
+	color: white;
+	border: none;
+	font-size: 20px;
+	margin-top: 15%;
+}
+
+.who_is_mark figure
+{
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.who_is_mark img
+{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+/* Si dessous commence la troisieme section leadership que j'ai divier en deux article a gauche et a droite*/
+.leadership
+{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+
+.premiere
+{
+	width: 50%;
+	height: 100vh;
+}
+
+.premiere figure
+{
+	width: 85%;
+	padding-left: 10%;
+	padding-top: 13%;
+}
+
+.premiere img
+{
+	width: 100%;
+}
+
+.premiere h2
+{
+	font-size: 40px;
+	width: 65%;
+	border-bottom: 6px solid  rgba(230, 207, 136, 1);
+	font-size: 50px;
+	z-index: 1;
+	margin-left: -5%;
+	padding-left:10%;
+	padding-bottom: 4%;
+}
+
+.premiere p
+{
+	width: 50%;
+	margin-left: 15%;
+	padding-top: 12px;
+	font-size: 12px;
+}
+
+.deuxieme
+{
+	width: 50%;
+	height: 100vh;
+	padding-top: 7%;
+}
+/*le aside est la zone de texte au dessus de l'image*/
+.deuxieme aside
+{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.deuxieme aside p
+{
+	font-size: 12px;
+    
+}
+
+.deuxieme aside
+{
+	width: 100%;
+	height: 50%;
+}
+
+aside h3
+{
+	width: 30%;
+	font-size: 16px;
+}
+
+aside h2
+{
+	font-size: 1.2rem;
+}
+
+aside p
+{
+	width: 40%;
+	font-size: 13px;
+	padding-top: 30px;
+}
+
+aside figure
+{
+	width: 10%;
+	height: 10px;
+}
+
+.deuxieme figure
+{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.deuxieme figure img
+{
+	width: 90%;
+	height: 50%;
+}
+
+/*Ci dessous se trouve la section mastering life success.Cette section est diviser en 2 article haut et bas */
+.mastering_life_success
+{
+	height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mastering_life_success .haut
+{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mastering_life_success .haut h1
+{
+	width: 45%;
+	font-size: 3rem;
+	margin-top: -20%;
+	z-index: 1;
+	padding-bottom: 20%;
+}
+
+.mastering_life_success .haut span
+{
+	background-color: rgba(245, 249, 255, 1);
+	padding-bottom: 10%;
+	height: 95%;
+}
+
+.mastering_life_success.haut
+{
+	height: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.mastering_life_success .haut span p
+{
+	padding-left: 10%;
+	width: 80%;
+	padding-bottom: 10%;
+	font-size: 14px;
+   
+}
+
+
+
+.mastering_life_success .haut figure
+{
+	width: 50%;
+	height: 100%;
+	padding-left: 5%;
+}
+/*la balise suivante vise les image de cette section et de celle qui suit coaching*/
+.haut img
+{
+	width: 80%;
+	height: 95%;
+	padding-top: 10%;
+}
+
+.mastering_life_success .bas h2
+{
+	width: 50%;
+	font-size: 18px;
+}
+
+.mastering_life_success .bas .right
+{
+	padding-top: 4%;
+}
+
+.mastering_life_success .bas
+{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.mastering_life_success .bas .left
+{
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 5%;
+	height: 30%;
+}
+
+.mastering_life_success .bas .left p
+{
+	padding-top: 10%;
+	padding-left: 15%;
+	width: 90%;
+	margin-bottom: 6%;
+	font-size: 15px;
+}
+
+.mastering_life_success .bas .left h2
+{
+	padding-left: 15%;
+}
+
+.mastering_life_success .bas .right
+{
+	width: 40%;
+}
+
+.mastering_life_success .bas .right p
+{
+	width: 80%;
+	padding-bottom: 6%;
+	font-size: 13px;
+}
+
+.mastering_life_success .haut span
+{
+	width: 50%;
+	height: 100%;
+}
+
+.mastering_life_success .haut span p
+{
+	font-size: 13px;
+	width: 70%;
+    padding-bottom: 10px;
+   
+}
+
+/* Si dessous commence la cinquieme section coaching que j'ai diviser en 2 article haut et bas*/
+.coaching
+{
+	height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+
+.coaching .haut h1
+{
+	font-size: 50px;
+	z-index: 1;
+	margin-left: -5%;
+	padding-left:8%;
+	width: 30%;
+	border-bottom: 6px solid  rgba(230, 207, 136, 1);
+	padding-bottom: 2%;
+	margin-top: 5%;
+}
+
+.coaching .haut
+{
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.coaching .haut p
+{
+	width: 40%;
+	height: 10%;
+	font-size: 10px;
+	padding-top:2%;
+	padding-left: 10%;
+}
+
+.coaching .haut figure
+{
+	width: 42%;
+	height: 100%;
+	padding-left: 5%;
+}
+
+.coaching .haut img
+{
+	width: 80%;
+}
+
+.coaching .bas
+{
+	width: 100%;
+	height: 50%;
+}
+
+.coaching .bas
+{
+	width: 100%;
+	height: 50%;
+}
+
+.haut figure
+{
+	width: 50%;
+	height: 30px;
+}
+
+.coaching .bas
+{
+	width:100%;
+	height: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.coaching .bas figure
+{
+	width: 42%;
+	display: flex;
+	justify-content: center;
+	padding-left: 5%;
+}
+
+.coaching .bas img
+{
+	width: 90%;
+	height: 80%;
+}
+/*le aside contient le texte a droit de l'image*/
+
+.coaching .bas aside
+{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.bas aside p
+{
+	width: 50%;
+	font-size: 10px;
+	padding-left: 20%;
+}
+
+.bas aside h3
+{
+	width: 40%;
+	padding-left: 10%;
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+	padding-top: 30px;
+	padding-left: 20%;
+}
+
+.bas aside button
+{
+	background-color: rgba(230, 207, 136, 1);
+	color: white;
+	width: 14%;
+	height: 15%;
+	border: none;
+	
+	margin-top: 3%;
+    margin-left: 100px;
+}
+/*La section suivant et hour portrait ou l'on une une zone haute avec un hgroup et une zone base avec 2 article left et right*/
+.hours_portrait
+{
+	padding-top: 10%;
+	height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.hours_portrait hgroup
+{
+	height: 50%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.hours_portrait hgroup h1
+{
+	background-color: rgba(245, 249, 255, 1);
+	width: 33.333%;
+	height: 45%;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 5%;
+}
+
+.hours_portrait hgroup span
+{
+	background-color: rgba(245, 249, 255, 1);
+	width: 33.333%;
+	font-size: 40px;
+	height: 30%;
+	text-align: center;
+}
+
+.hours_portrait article
+{
+	width: 50%;
+	height: 50%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	padding-left: 10%;
+}
+
+.hours_portrait article figure
+{
+	height: 50%;
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.hours_portrait article figure h3
+{
+	height: 12%;
+	padding-right:10%;
+	font-size: 18px;
+	padding-left: 35px;
+}
+
+.hours_portrait article figure span
+{
+	height: 20%;
+	width: 50%;
+	border-bottom: 6px solid  rgba(230, 207, 136, 1);
+	font-size: 14px;
+	padding-left: 35px;
+}
+
+.hours_portrait article figure img
+{
+	height: 90%;
+	width: 50%;
+}
+
+.hours_portrait article p
+{
+	height: 12%;
+	width: 60%;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+}
+
+.hours_portrait article p::before
+{
+	content: "❝";
+	font-size: 5rem;
+	color: rgba(230, 207, 136, 1);
+}
+
+fieldset
+{
+	height: 90%;
+	width: 90%;
+}
+/*Debut du footer qui contient le formulaire de contact*/
+footer
+{
+	width: 100%;
+	border: none;
+}
+
+footer h1
+{
+	width: 25%;
+	height: 15%;
+	font-size: 50px;
+	padding-top:4%;
+	border-bottom: 6px solid  rgba(230, 207, 136, 1);
+	padding-left: 3%;
+	z-index: 1;
+	margin-left: -5%;
+	padding-left:8%;
+}
+
+footer 
+{
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+fieldset
+{
+	height: 90%;
+	width: 100%;
+	border: none;
+}
+
+fieldset form
+{
+	height: 90%;
+	width: 100%;
+	padding-left: 10%;
+	padding-bottom: 10%;
+	padding-top: 6%;
+}
+
+fieldset form .haut
+{
+	width: 62%;
+	height: 15%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+input[type="text"] ,input[type="email"],input[type="tel"]
+{
+	height:50%;
+	width: 30%;
+	background-color: rgba(245, 249, 255, 1);
+	border: none;
+}
+
+fieldset label
+{
+	width: 10%;
+	height: 50%;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+fieldset .bas label
+{
+	height: 10%;
+}
+
+fieldset form .bas
+{
+	width: 60%;
+	height: 70%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+fieldset form .bas textarea
+{
+	width: 100%;
+	height: 60%;
+	background-color: rgba(245, 249, 255, 1);
+	border: none;
+}
+
+fieldset form .bas input[type="button"]
+{
+	margin-top: 5%;
+	width: 15%;
+	height: 25%;
+	color: white;
+	background-color: rgba(230, 207, 136, 1);
+	border: none;
+}
+
+fieldset  .bas p
+{
+	margin-top: 5%;
+	font-size: 13px;
+	width: 50%;
+	height: 40%;
+}
+
+fieldset  p
+{
+	display: flex;
+	flex-direction: column;
+	padding-left: 10%;
+	padding-bottom: 40px;
+	padding-top: 2%;
+	margin-top: 2%;
+}
+
+fieldset form p
+{
+	background-color: white;
+}
+
+fieldset .croix2
+{
+	width: 100%;
+	height: 1%;
+	margin-bottom: 20px;
+}
+
+fieldset > p
+{
+	font-size:16px;
+	height: 5%;
+}
+
+fieldset p span
+{
+	background-color: rgba(245, 249, 255, 1);
+	width: 100%;
+}
+
+footer .color_grey
+{
+	width: 100%;
+	background-color: rgba(245, 249, 255, 1);
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+footer  figure
+{
+	margin-bottom: -35px;
+	z-index: 1;
+}
+
+/*Debut de responsive*/
+/* Si dessous responsive pour tablette*/
+
+@media screen  and (min-width: 576px) and (max-width: 960px)
+{
+	body
+	{
+		display: flex;
+	}
+	/**/
+	header
+	{
+		height: 300px;
+		width: 100%;
+		display: flex;
+	}
+
+	header .croix
+	{
+		display: none;
+	}
+
+	header span
+	{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		position: static;
+	}
+
+	header span nav
+	{
+		height: 300px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-left: white solid 3px;
+		width: 50%;
+		position: static;
+	}
+
+	header span li
+	{
+		padding-bottom: 10px;
+		width: 100%;
+		font-size: 23px;
+	}
+	/**/
+	.container
+	{
+		width: 100%;
+	}
+
+	.make_your_life_count
+	{
+	}
+
+	.make_your_life_count h1
+	{
+		font-size: 85px;
+		padding-top: 40%;
+	}
+	/**/
+	.who_is_mark h2
+	{
+		width: 60%;
+		font-size: 45px;
+	}
+
+	.who_is_mark p
+	{
+		font-size: 20px;
+	}
+
+	.who_is_mark button
+	{
+		width: 65%;
+	}
+
+	.who_is_mark figure
+	{
+		display: flex;
+		align-items: center;
+	}
+
+	/**/
+
+	.leadership .premiere
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		border-right: 1px solid grey;
+		padding: 1px;
+	}
+
+	.leadership .premiere figure
+	{
+		width: 100%;
+		padding-right: 10%;
+		height: 40%;
+	}
+
+	.leadership .premiere figure img
+	{
+		width: 100%;
+		height: 80%;
+		padding-top: 10%;
+	}
+
+	.leadership .premiere p
+	{
+		font-size: 15px;
+		width: 90%;
+	}
+
+	.leadership .premiere h2
+	{
+		width: 100%;
+		border-top: 6px solid  rgba(230, 207, 136, 1);
+	}
+
+	/**/
+	.leadership .deuxieme aside
+	{
+		height: 60%;
+		padding-left: 10%;
+	}
+
+	.leadership .deuxieme h2
+	{
+		font-size: 20px;
+		padding-left: 5px;
+	}
+
+	.leadership .deuxieme p
+	{
+		width: 50%;
+		font-size: 15px;
+		padding-left: 5px;
+	}
+
+	.leadership .deuxieme figure
+	{
+		height: 40%;
+	}
+    .leadership .deuxieme aside p
+	{
+		
+	}
+	.leadership .deuxieme figure img
+	{
+		height: 90%;
+	}
+
+	/**/
+
+	.mastering_life_success .haut span
+	{
+		font-size: 16px;
+	}
+
+	.mastering_life_success .haut span p
+	{
+		font-size: 16px;
+		width: 100%;
+	}
+
+	.mastering_life_success .haut span h1
+	{
+		font-size: 3rem;
+		width: 100%;
+		padding-top: 20%;
+	}
+
+	.mastering_life_success .haut figure
+	{
+		height: 90%;
+		width: 45%;
+	}
+
+	.mastering_life_success .haut figure img
+	{
+		width: 100%;
+	}
+
+	/**/
+	.coaching .haut figure
+	{
+		width: 50%;
+	}
+
+	.coaching .haut h1
+	{
+		width: 50%;
+	}
+
+	.coaching .haut figure img
+	{
+		width: 90%;
+	}
+
+	.coaching .haut p
+	{
+		width: 50%;
+		font-size: 14px;
+	}
+
+	.coaching .bas aside
+	{
+	}
+
+	.coaching .bas aside p
+	{
+		padding-top: 10px;
+		padding-left: 0;
+		font-size: 11px;
+		
+	}
+
+	.coaching .bas aside h3
+	{
+		padding-top:10%;
+		padding-left: 0;
+		font-size: 14px;
+		padding-bottom:2%;
+	}
+
+	.coaching .bas aside button
+	{
+		width: 20%;
+	}
+
+	.coaching .bas figure img
+	{
+		height: 70%;
+		width: 95%;
+	}
+
+	/**/
+	.hours_portrait article figure h3
+	{
+		font-size: 18px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.hours_portrait article figure
+	{
+		width: 100%;
+		height: 60%;
+		padding-right: 20%;
+	}
+
+	.hours_portrait article figure img
+	{
+		font-size: 16px;
+		width: 100%;
+		height: 60%;
+	}
+
+	.hours_portrait article figure span
+	{
+		width: 100%;
+		padding-top: 6px;
+	}
+
+	.hours_portrait article  p
+	{
+		font-size: 17px;
+		width: 100%;
+	}
+
+	/**/
+	footer  fieldset form
+	{
+		height: 80%;
+	}
+
+	footer  fieldset h1
+	{
+		width: 50%;
+	}
+
+	footer  fieldset form .haut
+	{
+		width: 90%;
+	}
+
+	footer  fieldset form .bas
+	{
+		width: 90%;
+	}
+
+	input[type="text"] ,input[type="email"]
+	{
+		width: 32%;
+	}
+
+	footer  fieldset form .bas input[type="button"]
+	{
+		width: 100%;
+		font-size: 20px;
+	}
+
+	footer  fieldset form .bas p
+	{
+		width: 100%;
+		height: 10%;
+		padding-right: 10%;
+		text-align: center;
+	}
+    
+}
+
+
+/* Si dessous responsive pour telephone*/
+@media screen  and (max-width: 576px)
+{
+	.make_your_life_count h1
+	{
+		font-size: 70px;
+	}
+	/**/
+	.who_is_mark p
+	{
+		font-size: 14px;
+	}
+	/**/
+	.leadership .premiere p
+	{
+		font-size: 12px;
+		padding-top: 2px;
+	}
+	.leadership .premiere h2
+	{
+		font-size: 40px;
+	}
+
+	.leadership .deuxieme p
+	{
+		font-size: 11px;
+		padding-top: 2px;
+	}
+	
+	.leadership .deuxieme h3
+	{
+		font-size: 12px;
+	}
+	/**/
+	.mastering_life_success .haut span h1
+	{
+		font-size: 24px;
+		height: 20%;
+		padding-left: 10px;
+	}
+
+	.mastering_life_success .haut span p
+	{
+		font-size: 14px;
+	}
+
+	.mastering_life_success .bas .left p
+	{
+		font-size: 14px;
+	}
+
+	.mastering_life_success .bas .left h2
+	{
+		font-size: 16px;
+		width: 100%;
+	}
+
+	.mastering_life_success .bas .right p
+	{
+		font-size: 14px;
+	}
+	/**/
+	.coaching .haut h1
+	{
+		font-size: 30px;
+	}
+
+	.coaching .haut figure
+	{
+		width: 40%;
+		height: 80%;
+	}
+
+	.coaching .haut figure img
+	{
+		height: 100%;
+	}
+
+	.coaching .haut p
+	{
+		font-size: 12px;
+		padding-right: 20px;
+		width: 60%;
+	}
+
+	.coaching .bas aside
+	{
+		padding-top: 25px;
+	}
+
+	.coaching .bas aside p
+	{
+		font-size: 12px;
+		padding-right: 2px;
+		width: 65%;
+	}
+
+	.coaching .bas figure
+	{
+		width: 35%;
+		padding-top: 40px;
+		margin-left: 20px;
+	}
+
+	.coaching .bas figure img
+	{
+		height: 90%;
+	}
+
+	.coaching .bas aside h3
+	{
+		font-size: 11px;
+		padding-top: 10px;
+	}
+
+	.coaching .bas aside button
+	{
+		font-size: 10px;
+		width: 20%;
+		margin-left: inherit;
+	}
+	/**/
+	.hours_portrait hgroup h1
+	{
+		font-size: 80px;
+		padding-top: 10px;
+	}
+
+	.hours_portrait article figure h3
+	{
+		font-size: 16px;
+	}
+
+	.hours_portrait article p
+	{
+		font-size: 10px;
+		padding-top: 14px;
+	}
+}
+
+/*Si dessous media print*/
+@media print
+{
+	header, footer ,figure
+	{
+		display: none;
+	}
+	main figure img{
+		display: none;
+	}
+}
